@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+    transition:0.3s;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    background:black;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.btn{
+    margin-top:20px;
+    padding:10px 25px;
+    border:none;
+    background:black;
+    color:white;
+    cursor:pointer;
+}
+
+.services{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.about, .contact{
+    padding:60px 20px;
+    text-align:center;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    max-width:300px;
+    margin:auto;
+}
+
+input{
+    padding:10px;
+    border:none;
+    border-radius:5px;
+}
+
+button{
+    padding:10px;
+    border:none;
+    cursor:pointer;
+}
+
+.light-mode{
+    background:white;
+    color:black;
+}
